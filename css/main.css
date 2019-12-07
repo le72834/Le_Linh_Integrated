@@ -108,7 +108,6 @@ ul li {
 	font-size: 17px;
 	padding-left: 100px;
 	line-height: 20px;
-
 }
 
 #promoText {
@@ -185,21 +184,22 @@ ul li {
 .alignleft {
 	float: left;
 	font-weight: bold;
-
 }
+
 .alignright {
 	float: right;
-
 }
+
 .productDesc {
 	width: 200px;
 	margin-top: 10px;
 }
+
 .productDesc p {
 	margin-top: 20px;
 	color: #647357;
-	 
 }
+
 .productDesc a {
 	border: solid 2px #406618;
 	font-size: 12px;
@@ -211,7 +211,6 @@ ul li {
 	padding: 5px;
 	text-align: center;
 	color: #4d5d35;
-	
 }
 
 #mainFooter {
@@ -223,26 +222,25 @@ ul li {
 	background-color: #a9b991;
 	height: 188px;
 }
+
 #footerNav {
 	width: 920px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	color: white;
-
 }
+
 #footerNav h4 {
 	font-size: 16px;
 	font-weight: bold;
 	margin-top: 20px;
-
 }
+
 .box1 {
  margin-left: 200px;
  height: 25px;
  width: 60px;
-
-  
 }
 
 .box1 ul {
@@ -251,14 +249,12 @@ ul li {
   width: 500px;
   margin-left: 0;
   margin-top: 20px;
-  
-}
+ }
 
 .box1 ul li { 
  display: block;
  font-size: 14px;
  text-transform: normal;  
-
 }
 
 .box1 ul li a {
@@ -273,17 +269,20 @@ ul li {
 	margin-left: auto;
 	width: 400px;
 }
+
 .box2 {
 	margin-right: 20px;
 	margin-left: 15px;
-
 }
+
 .box2 p {
 	margin-top: 20px;
 }
+
 .box3 {
 	margin-top: 20px;
 }
+
 .box3 label {
 	font-size: 16px;
 	font-weight: bold;
@@ -308,18 +307,19 @@ input {
 }
 
 #copyRight h5 {
-	
 	color: white;
 	font-size: 14px;
 	margin-top: 10px;
 }
+
 .fourCol {
 	padding-top: 30px;
-
 }
+
 #socialmedia {
 	margin-left: 20px;
 }
+
 #submit2 {
 	color: #5f7441;
 	border: solid 2px #fff;
@@ -327,7 +327,6 @@ input {
 	width: 70px;
 	margin-top: 10px;
 	padding: 5px;
-
 }
 
 /* Brands Page */
@@ -343,7 +342,8 @@ input {
 .productImg {
 	width: 280px;
 }
- #productImages h3 {
+
+#productImages h3 {
  	font-family: Arial;
  	font-size: 14px;
  	font-weight: bold;
@@ -354,12 +354,13 @@ input {
  	margin-top: 20px;
  }
 
- #productImages p {
+#productImages p {
  	text-align: center;
  	color: #a9b991;
 
- }
- #productImages a {
+}
+
+#productImages a {
 	border: solid 2px #406618;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -371,9 +372,9 @@ input {
 	text-align: center;
 	color: #4d5d35;
 	margin-left: 35px;
-	
 }
- #contentAreaBig {
+
+#contentAreaBig {
  	margin-top: 20px;
  	padding-top: 10px;
  	padding-bottom: 40px;
@@ -384,9 +385,9 @@ input {
  	height: 300px;
  	display: flex;
  	flex-direction: column;
+}
 
- }
- #contentAreaBig h4 {
+#contentAreaBig h4 {
  	font-family: Arial;
  	font-weight: bold;
  	font-size: 25px;
@@ -395,17 +396,18 @@ input {
  	padding-top: 60px;
  	color: white;
  	margin-bottom: 10px;
- }
- #contentAreaBig p {
+}
+
+#contentAreaBig p {
  	font-family: Arial;
  	text-align: center;
  	font-size: 18px;
  	color: white;
  	line-height: 30px;
  	margin-bottom: 30px;
+}
 
- }
- #contentAreaBig a {
+#contentAreaBig a {
  	border: solid 3px #a9b991;
 	padding: 10px;
 	color: white;
@@ -426,77 +428,82 @@ input {
 	color:#3d4c37;
 	text-align: center;
 	font-size: 25px;
-	
 }
- #icons h3 {
+
+#icons h3 {
  	font-size: 16px;
  	text-transform: uppercase;
  	color: #3d4c37;
  	font-weight: bold;
  	margin-top: 20px;
  	margin-bottom: 10px;
+}
 
- }
 #icons p {
  	font-size: 14px;
  	color: #a9b991;
+}
 
- }
 #contactArea {
 	width: 940px;
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
 	padding: 20px 20px 0px 20px;
-	
 }
+
 #contactForm input {
 	border: solid 2px #416731;
 	padding-left: 10px;
 	font-size: 12px;
-
-
 }
+
 #contactForm textarea {
 	border: solid 2px #416731;
 	padding-left: 10px;
 	font-size: 12px;
-
 }
+
 #submit {
 	color: #5f7441;
 	font-weight: bold;
 	width: 100px;
 }
+
 #contactText {
 	margin-left: 40px;
 }
+
 #contactText h6 {
  	font-size: 18px;
  	font-family: Arial;
  	font-weight: bold;
  	color: #3d4c37;
  	text-transform: uppercase;
-
 }
- #contactText {
+
+#contactText {
  	width: 380px;
 }
+
 #contactText p {
  	font-size: 14px;
  	color: #a9b991;
  	margin-bottom: 20px;
  	margin-top: 10px;
  	line-height: 16px;
- }
+}
+
 #contactText2 {
  	margin-left: 80px;
- }
+}
+
 #contactText2 p {
 	font-size: 14px;
  	color: #a9b991;
  	line-height: 16px;
 }
+
 #contactText2 h6 {
 	font-size: 18px;
  	font-family: Arial;
@@ -532,19 +539,14 @@ input {
 	margin-left: 60px;
 }
 
-.iconsproduct h3, .iconsproduct p {
-	
-}
-
 #footerNav h5 {
 	font-size: 16px;
-
 }
+
 #iconsproduct1 {
 	background-color: #f2f3f6;
-	
-
 }
+
 hr {
 	width: 920px;
 	height: 4px;
