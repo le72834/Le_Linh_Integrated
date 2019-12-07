@@ -14,5 +14,5 @@ Just an editor and git!
 ### Authors 
 Linh Le
 
-###License 
+### License 
 This project is licensed under the MIT license and Fanshawe license.
