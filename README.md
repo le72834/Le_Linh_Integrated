@@ -1,4 +1,4 @@
-![Natural Cosmetic Website](readme_picture.jpg "Natural Cosmetic")
+![Natural Cosmetic Website](images/readme_picture.jpg "Natural Cosmetic")
 
 # A website about pure and natural organic beauty.
 
