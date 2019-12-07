@@ -1,0 +1,565 @@
+@charset "UTF-8";
+/*CSS Document */
+
+div, p, body, header, footer, section, article, nav {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+}
+
+/*html selectors*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #333;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.hidden {
+	display: none;
+}
+
+#siteContainer {
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 50px;
+}
+
+#mainHeader {
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: #a9b991;
+}
+
+#logo {
+	width: 200px;
+	padding-left: 230px;
+	padding-top: 30px;
+}
+
+#mainnav {
+	margin-left: auto;
+	width: 500px;
+	margin-top: 95px;
+	height: 25px;
+}
+
+#mainnav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+ul li {
+	display: inline;
+	cursor: pointer;
+}
+
+#mainnav ul li a {
+	padding-left: 10px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none; 
+	margin-bottom: 50px;
+}
+
+#mainnav ul li a.current {
+	color: #3d4c37;
+}
+
+#mainnav ul li a:hover {
+	background-color: #d9ebbf;
+	padding: 5px; 
+}
+
+#promo {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#promo p {
+	color: white;
+	font-size: 17px;
+	padding-left: 100px;
+	line-height: 20px;
+
+}
+
+#promoText {
+	width: 920px;
+	margin-left: 50px;
+	background-image: url(../images/heroimage.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 251px;
+}
+
+#promoText a {
+	border: solid 2px #406618;
+	background-color: rgba(93,148,36,0.75);
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin: 100px;
+	line-height: 50px;
+	padding: 7px;
+}
+
+#promoText h1 {
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 80px;
+	color: white;
+	margin: 20px;
+}
+
+#productInfo {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-bottom: 40px;
+	margin-left: 20px;
+	width: 920px;
+}
+
+#productText h2 {
+	font-family: Bodoni72;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#3d4c37;
+	text-align: center;
+	font-size: 25px;
+	margin-top: 30px;
+
+}
+
+#productText p {
+	text-align: center;
+	color: #5f7441;
+	font-size: 14px;
+	margin-top: 20px;
+	line-height: 20px;
+}
+
+#productInfo h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#productInfo p {
+	font-family: Arial;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.alignleft {
+	float: left;
+	font-weight: bold;
+
+}
+.alignright {
+	float: right;
+
+}
+.productDesc {
+	width: 200px;
+	margin-top: 10px;
+}
+.productDesc p {
+	margin-top: 20px;
+	color: #647357;
+	 
+}
+.productDesc a {
+	border: solid 2px #406618;
+	font-size: 12px;
+	text-transform: uppercase;
+	width: 190px;
+	position: relative;
+	display: inline-block;
+	margin-top: 30px;
+	padding: 5px;
+	text-align: center;
+	color: #4d5d35;
+	
+}
+
+#mainFooter {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: #a9b991;
+	height: 188px;
+}
+#footerNav {
+	width: 920px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	color: white;
+
+}
+#footerNav h4 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+
+}
+.box1 {
+ margin-left: 200px;
+ height: 25px;
+ width: 60px;
+
+  
+}
+
+.box1 ul {
+  padding: 0;
+  list-style-type: none;
+  width: 500px;
+  margin-left: 0;
+  margin-top: 20px;
+  
+}
+
+.box1 ul li { 
+ display: block;
+ font-size: 14px;
+ text-transform: normal;  
+
+}
+
+.box1 ul li a {
+  color: white;
+}
+
+.box1 ul li a:hover {
+  color: #999;
+}
+
+#copyRight {
+	margin-left: auto;
+	width: 400px;
+}
+.box2 {
+	margin-right: 20px;
+	margin-left: 15px;
+
+}
+.box2 p {
+	margin-top: 20px;
+}
+.box3 {
+	margin-top: 20px;
+}
+.box3 label {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.box3 input {
+	background-color: #a9b991;
+}
+
+.newsletterForm {
+	position: relative;
+	width: 200px;
+}
+
+input {
+	border: none;
+	border-bottom: 2px solid #f9fbfa;
+	padding: 10px ;
+	width: 200px;
+	display: block;
+	font-size: 12px;
+}
+
+#copyRight h5 {
+	
+	color: white;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.fourCol {
+	padding-top: 30px;
+
+}
+#socialmedia {
+	margin-left: 20px;
+}
+#submit2 {
+	color: #5f7441;
+	border: solid 2px #fff;
+	font-weight: bold;
+	width: 70px;
+	margin-top: 10px;
+	padding: 5px;
+
+}
+
+/* Brands Page */
+
+#productImages {
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.productImg {
+	width: 280px;
+}
+ #productImages h3 {
+ 	font-family: Arial;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	color: #3d4c37;
+ 	margin-bottom: 10px;
+ 	margin-top: 20px;
+ }
+
+ #productImages p {
+ 	text-align: center;
+ 	color: #a9b991;
+
+ }
+ #productImages a {
+	border: solid 2px #406618;
+	font-size: 12px;
+	text-transform: uppercase;
+	width: 190px;
+	position: relative;
+	display: inline-block;
+	margin-top: 20px;
+	padding: 5px;
+	text-align: center;
+	color: #4d5d35;
+	margin-left: 35px;
+	
+}
+ #contentAreaBig {
+ 	margin-top: 20px;
+ 	padding-top: 10px;
+ 	padding-bottom: 40px;
+ 	background-image: url(../images/cosmetic.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center center;
+ 	height: 300px;
+ 	display: flex;
+ 	flex-direction: column;
+
+ }
+ #contentAreaBig h4 {
+ 	font-family: Arial;
+ 	font-weight: bold;
+ 	font-size: 25px;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	padding-top: 60px;
+ 	color: white;
+ 	margin-bottom: 10px;
+ }
+ #contentAreaBig p {
+ 	font-family: Arial;
+ 	text-align: center;
+ 	font-size: 18px;
+ 	color: white;
+ 	line-height: 30px;
+ 	margin-bottom: 30px;
+
+ }
+ #contentAreaBig a {
+ 	border: solid 3px #a9b991;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	width: 150px;
+	margin: 0px auto;
+}
+
+ /*Page Contact us*/
+#productText2 h2 {
+	font-family: Bodoni72;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#3d4c37;
+	text-align: center;
+	font-size: 25px;
+	
+}
+ #icons h3 {
+ 	font-size: 16px;
+ 	text-transform: uppercase;
+ 	color: #3d4c37;
+ 	font-weight: bold;
+ 	margin-top: 20px;
+ 	margin-bottom: 10px;
+
+ }
+#icons p {
+ 	font-size: 14px;
+ 	color: #a9b991;
+
+ }
+#contactArea {
+	width: 940px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding: 20px 20px 0px 20px;
+	
+}
+#contactForm input {
+	border: solid 2px #416731;
+	padding-left: 10px;
+	font-size: 12px;
+
+
+}
+#contactForm textarea {
+	border: solid 2px #416731;
+	padding-left: 10px;
+	font-size: 12px;
+
+}
+#submit {
+	color: #5f7441;
+	font-weight: bold;
+	width: 100px;
+}
+#contactText {
+	margin-left: 40px;
+}
+#contactText h6 {
+ 	font-size: 18px;
+ 	font-family: Arial;
+ 	font-weight: bold;
+ 	color: #3d4c37;
+ 	text-transform: uppercase;
+
+}
+ #contactText {
+ 	width: 380px;
+}
+#contactText p {
+ 	font-size: 14px;
+ 	color: #a9b991;
+ 	margin-bottom: 20px;
+ 	margin-top: 10px;
+ 	line-height: 16px;
+ }
+#contactText2 {
+ 	margin-left: 80px;
+ }
+#contactText2 p {
+	font-size: 14px;
+ 	color: #a9b991;
+ 	line-height: 16px;
+}
+#contactText2 h6 {
+	font-size: 18px;
+ 	font-family: Arial;
+ 	font-weight: bold;
+ 	color: #3d4c37;
+ 	text-transform: uppercase;
+ 	margin-bottom: 10px;
+ 	margin-top: 10px;
+}
+
+#icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	height: 300px;
+	width: 920px;
+	padding-top: 30px;
+}
+
+.iconBG {
+	background-color: #f2f3f6;
+}
+
+.iconsproduct {
+	height: 100px;
+	width: 450px;
+}
+
+.iconsproduct img {
+	margin-top:20px;
+	margin-right: 30px;
+	margin-left: 60px;
+}
+
+.iconsproduct h3, .iconsproduct p {
+	
+}
+
+#footerNav h5 {
+	font-size: 16px;
+
+}
+#iconsproduct1 {
+	background-color: #f2f3f6;
+	
+
+}
+hr {
+	width: 920px;
+	height: 4px;
+	background-color: #5f7442;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
