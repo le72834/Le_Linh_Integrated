@@ -238,31 +238,31 @@ ul li {
 }
 
 .box1 {
- margin-left: 200px;
- height: 25px;
- width: 60px;
+	 margin-left: 200px;
+	 height: 25px;
+	 width: 60px;
 }
 
 .box1 ul {
-  padding: 0;
-  list-style-type: none;
-  width: 500px;
-  margin-left: 0;
-  margin-top: 20px;
+	 padding: 0;
+	 list-style-type: none;
+	 width: 500px;
+	 margin-left: 0;
+	 margin-top: 20px;
  }
 
 .box1 ul li { 
- display: block;
- font-size: 14px;
- text-transform: normal;  
+	 display: block;
+	 font-size: 14px;
+  
 }
 
 .box1 ul li a {
-  color: white;
+  	color: white;
 }
 
 .box1 ul li a:hover {
-  color: #999;
+  	color: #999;
 }
 
 #copyRight {
@@ -357,7 +357,6 @@ input {
 #productImages p {
  	text-align: center;
  	color: #a9b991;
-
 }
 
 #productImages a {
